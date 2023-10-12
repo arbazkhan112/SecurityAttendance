@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.SUPERVISORPASSWORD_MAIN_CONTAINER {
+    display: flex;
+}
+
+.SUPERVISORPASSWORD_LEFT_CONTAINER{
+    display: flex;
+    flex-basis: 20%;
+    background-color: #62f96f;
+}
+
+.SUPERVISORPASSWORD_RIGHT_CONTAINER{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 80%;
+    margin-left: 7%;
+
+}
+
+.SUPERVISORPASSWORD_H1_CONTAINER{
+    margin: 1% auto;
+
+}
+
+
+.SUPERVISORPASSWORD_H1 {
+    font-size: 2.3rem;
+    letter-spacing: 7px;
+    font-family: 'Ramaraja', serif;
+    color: #62A4F9;
+}
+
+.SUPERVISORPASSWORD_INPUT_CONTAINER{
+    display: flex;
+    flex-direction: row;
+}
+
+.SUPERVISORPASSWORD_H2{
+    font-size: 1.2rem;
+    margin-top: 5%;
+
+}
+
+.SUPERVISORPASSWORD_ID_NUMBER{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0px;
+    margin-right: 5%;
+
+}
+.SUPERVISORPASSWORD_PASSWORD{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0px;
+    margin-right: 5%;
+}
+
+.SUPERVISORPASSWORDINPUT_BOX{
+    padding: 2% 0%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F2F2;
+    border-radius: 10%;
+    border: 2px solid #F3F2F2;
+    margin: 3% 0%;
+    font-size: 1rem;
+    padding-left: 3%;
+}
+
+.SUPERVISORPASSWORDINPUT_HEADING{
+    font-size: 0.9rem;
+}
+
+.SUPERVISORPASSWORD_PASSWORD{
+    display: flex;
+    flex-direction: column;
+}
+
+.SUPERVISORPASSWORD_BUTTON_CONTAINER{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 17%;
+
+}
+
+.SUPERVISORPASSWORD_CONFIRM_BUTTON{
+    background-color: #62A4F9;
+    padding: 8px 32px;
+    border-radius: 23px;
+    border: #62A4F9;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    margin: 1px 32px;
+}
