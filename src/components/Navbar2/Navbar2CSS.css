@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAVBAR CONTAINER */
+
+.NAVBAR2Container{
+    border-bottom: 1px solid black;
+    display: flex;
+    height: 12vh;
+}
+
+/* LEFT CONTAINER INSIDE NAVBAR CONTAINER */
+
+#NAVBAR2leftContainer{
+    display: flex;
+    flex-basis: 18%;
+    justify-content: center;
+    border-right: 1px solid black;
+    /* border: 3px solid red; */
+}
+
+#NAVBAR2leftContainerLogo{
+    height: 70%;
+    margin: auto 19%;
+
+}
+
+/* CENTER CONTAINER INSIDE NAVBAR CONTAINER  */
+
+#NAVBAR2CenterContainer{
+    display: flex;
+    flex-basis: 58%;
+    /* border: 3px solid blue; */
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid black;
+    margin: 1% 0%;
+
+}
+
+#NAVBAR2GuardsNumberContainer{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8%;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-left: 5%;
+    background-color: #cfcfcf;
+    padding: 1% 1%;
+}
+
+#NAVBAR2GuardsNumberContainerHeading{
+    font-size: 12px;
+    margin: 2%;
+}
+
+#NAVBAR2GuardsNumberContainerHumber{
+    font-size: 12px;
+    margin: 2%;
+
+    font-weight: bold;
+
+}
+
+#NAVBAR2GuardsNumberContainerNumberBell{
+    margin-right: 3%;
+}
+
+#NAVBAR2GuardsNumberContainerNumberBell{
+    height: 45%;
+}
+
+/* RIGHT CONTAINER INSIDE NAVBAR CONTAINER */
+
+#NAVBAR2RightContainer{
+    display: flex;
+    flex-basis: 25%;
+    /* border: 3px solid green; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+#NAVBAR2RightContainerLogo{
+    height: 80%;
+}
+
+#NAVBAR2RightContainerName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#NAVBAR2RightContainerNameH1{
+    font-size: 1.7rem;
+}
+
+#NAVBAR2RightContainerNameAdminText{
+    font-size: 1rem;
+}
+
+#NAVBAR2RightContainerDownLogo{
+    height: 25%;
+}
+
+/* USING MEDIA QUERIES  */
+
+ 
+@media only screen and (max-width: 1024px) {
+    #NAVBAR2RightContainerNameH1{
+        font-size: 1.5rem;
+    }
+    
+    #NAVBAR2RightContainerNameAdminText{
+        font-size: 0.9rem;
+    }
+
+    #NAVBAR2RightContainerLogo{
+        display: none;
+    }
+
+  }
+
+
+@media only screen and (max-width: 700px) {
+    #NAVBAR2RightContainerNameH1{
+        font-size: 1.3rem;
+    }
+    
+    #NAVBAR2RightContainerNameAdminText{
+        font-size: 0.8rem;
+    }
+
+    #NAVBAR2GuardsNumberContainerNumberBell{
+        height: 35%;
+    }
+
+  }
+
+
+@media only screen and (max-width: 600px) {
+    #NAVBAR2RightContainerNameH1{
+        display: none;
+    }
+    
+    #NAVBAR2RightContainerNameAdminText{
+        display: none;
+    }
+
+    #NAVBAR2CenterContainer{
+        flex-basis: 70%;
+    }
+
+    #NAVBAR2RightContainer{
+        flex-basis: 12%;
+        justify-content: center;
+    }
+
+    #NAVBAR2leftContainerLogo {
+        height: 50%;
+    }
+
+    #NAVBAR2GuardsNumberContainerHeading{
+        font-size: 10px;
+    }
+
+    #NAVBAR2GuardsNumberContainerHumber{
+        font-size: 10px;
+    }
+
+    #NAVBAR2GuardsNumberContainerNumberBell{
+        height: 30%;
+    }
+  }
+
+
+  @media only screen and (max-width: 400px){
+
+    #NAVBAR2leftContainerLogo {
+        height: 35%;
+    }
+
+  }

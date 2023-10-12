@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.NAVBAR_CONTAINER{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px gray;
+}
+
+.NAVBAR_BUTTON_HAMBURGER{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 2%;
+
+}
+
+
+.NAVBAR_LOGIN_BUTTON{
+    
+    background-color: #62A4F9;
+    padding: 8px 32px;
+    border-radius: 23px;
+    border: #62A4F9;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    margin: 1px 32px;
+
+}
+.NAVBAR_HAMBURGER_CONTAINER{
+    display: flex;
+    flex-direction: column;
+}
+#LOGIN_HAMBURGER{
+    margin: 12% 0%;
+
+}
+#NAVBAR_LOGO{
+    width: 70%;
+    margin-left: 35%;
+
+
+}
+
+/* USING MEDIA QUERIES FOR RESPONSIVENESS */
+
+@media only screen and (max-width: 600px){
+
+    #NAVBAR_LOGO {
+        width: 50%;
+
+    }
+
+    .NAVBAR_LOGIN_BUTTON{
+        padding: 8px 20px;
+    }
+
+    #LOGIN_HAMBURGER{
+        margin: 9% 0%;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+
+    #NAVBAR_LOGO {
+        width: 50%;
+        margin-left: 10%;
+
+    }
+
+   
+}

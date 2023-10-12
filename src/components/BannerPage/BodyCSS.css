@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#BANNER_BODY_BOXES_IMG {
+    width: 5%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.BANNER_BODY_CONTAINER {
+    display: flex;
+    flex-direction: row;
+}
+
+#BANNER_BODY_STARS_IMG {
+    width: 6%;
+    height: 7%;
+    margin-top: 15%;
+}
+
+#BANNER_BODY_CALENDAR_IMG {
+    width: 25%;
+    height: 10%;
+    margin-right: 3%;
+
+
+}
+
+.BANNER_BODY_TITLE_STARIMAGE_CONTAINER {
+    display: flex;
+}
+
+.BANNER_BODY_TITLE_CONTAINER {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+#BANNER_BODY_TITLE_H1 {
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 3rem;
+    letter-spacing: 12px;
+}
+
+#BANNER_BODY_H2 {
+    color: #62A4F9D9;
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 1.8rem;
+    margin-top: 0%;
+    margin-left: 10%;
+    letter-spacing: 5px;
+}
+
+#BANNER_BODY_P {
+    color: #868481;
+    font-family: 'Poly', serif;
+    font-size: 1.2rem;
+    margin-top: 0%;
+    letter-spacing: 6px;
+    margin-left: 10%;
+}
+
+.BANNER_BODY_BUTTON {
+
+    padding: 15px 49px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: 30px 6px;
+
+}
+
+.BANNER_BODY_SIGNUP_BUTTON {
+    margin-left: 10%;
+    background-color: #62A4F9;
+    border: 1px solid #62A4F9;
+
+}
+
+.BANNER_BODY_LEARNMORE_BUTTON {
+    color: #62A4F9;
+    background-color: white;
+    border: 2px solid #62A4F9;
+}
+
+
+
+/* USING MEDIA QUERIES */
+
+@media only screen and (max-width: 850px) {
+
+    #BANNER_BODY_TITLE_H1 {
+        font-family: 'Odor Mean Chey', serif;
+        font-size: 2.5rem;
+        letter-spacing: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #BANNER_BODY_TITLE_H1 {
+        font-family: 'Odor Mean Chey', serif;
+        font-size: 1.6rem;
+        letter-spacing: 12px;
+    }
+
+    #BANNER_BODY_H2 {
+
+        font-size: 1.3rem;
+
+    }
+
+    #BANNER_BODY_P {
+
+        font-size: 1rem;
+
+    }
+
+    .BANNER_BODY_CONTAINER {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #BANNER_BODY_CALENDAR_IMG {
+        width: 32%;
+        height: 10%;
+        margin-left: 8%;
+        margin-bottom: 3%;
+    }
+
+    .BANNER_BODY_BUTTON {
+        padding: 11px 24px;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+        margin: 30px 6px;
+    }
+
+    .BANNER_BODY_SIGNUP_BUTTON {
+        margin-left: 10%;
+        background-color: #62A4F9;
+        border: 1px solid #62A4F9;
+    }
+
+    .BANNER_BODY_LEARNMORE_BUTTON {
+        color: #62A4F9;
+        background-color: white;
+        border: 2px solid #62A4F9;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    #BANNER_BODY_TITLE_H1 {
+        font-size: 1.2rem;
+        letter-spacing: 7px;
+
+    }
+
+    #BANNER_BODY_H2 {
+
+        font-size: 1rem;
+
+    }
+
+    #BANNER_BODY_P {
+
+        font-size: 0.7rem;
+
+    }
+
+    .BANNER_BODY_BUTTON {
+        padding: 8px 18px;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 0.7rem;
+        color: white;
+        text-align: center;
+        margin: 30px 6px;
+    }
+
+    .BANNER_BODY_SIGNUP_BUTTON {
+        margin-left: 10%;
+        background-color: #62A4F9;
+        border: 1px solid #62A4F9;
+    }
+
+    .BANNER_BODY_LEARNMORE_BUTTON {
+        color: #62A4F9;
+        background-color: white;
+        border: 2px solid #62A4F9;
+    }
+
+}
