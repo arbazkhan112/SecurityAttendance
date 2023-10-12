@@ -11,6 +11,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import SupervisorPassword from './Pages/SupervisorPasswordPage/SupervisorPassword';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<BannerPage />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/dashboard" element={<Dashboardpage />}></Route>
+          <Route path="/supervisorpassword" element={<SupervisorPassword />}></Route>
         </Routes>
       </BrowserRouter>
     </>
