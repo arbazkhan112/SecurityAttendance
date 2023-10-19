@@ -1,17 +1,17 @@
 import React from 'react'
-import Navbar2 from '../../components/Navbar2/Navbar2'
-import Sidebar from '../../components/SideBar/Sidebar'
+import Sidebar2 from '../../components/Sidebar2/Sidebar2';
+import './Style.css';
 
-import './style.css';
+
 
 export default function SupervisorPassword() {
-    return (
-        <div>
-            <Navbar2 />
-            <Sidebar />
-            <div className="SUPERVISORPASSWORD_MAIN_CONTAINER">
-                <div className="SUPERVISORPASSWORD_LEFT_CONTAINER"></div>
-                <div className="SUPERVISORPASSWORD_RIGHT_CONTAINER">
+  return (
+    <>
+        <div className='SUPERVISORPASSWORD_MAIN_CONTAINER'>
+                <Sidebar2 />
+                <div className="SUPERVISORPASSWORD_MAIN_CONTAINER2">
+                    {/* <div className="SUPERVISORPASSWORD_LEFT_CONTAINER"></div> */}
+                    {/* <div className="SUPERVISORPASSWORD_RIGHT_CONTAINER"> */}
                     <div className="SUPERVISORPASSWORD_H1_CONTAINER">
                         <h1 className="SUPERVISORPASSWORD_H1">Access for Supervisor</h1>
                     </div>
@@ -31,6 +31,6 @@ export default function SupervisorPassword() {
                     </div>
                 </div>
             </div>
-        </div>
-    )
+    </>
+  )
 }

@@ -11,7 +11,8 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import SupervisorPassword from './Pages/SupervisorPasswordPage/SupervisorPassword';
+import Supervisor from './Pages/SupervisorPasswordPage/Supervisor';
+import SupervisorLogin from './Pages/SupervisorLogin/SupervisorLogin';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
           <Route path="/" element={<BannerPage />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/dashboard" element={<Dashboardpage />}></Route>
-          <Route path="/supervisorpassword" element={<SupervisorPassword />}></Route>
+          <Route path="/supervisor" element={<Supervisor />}></Route>
+          <Route path="/SupervisorLogin" element={<SupervisorLogin />}></Route>
         </Routes>
       </BrowserRouter>
     </>
