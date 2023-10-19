@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.SIDEBAR_Coloumn_Container{
+    display: flex;
+    flex-direction: column;
+    width: 17.8%;
+    border-right: 1px solid black;
+    height: 100vh;
+    padding-top: 3%;
+    /* background-color: blue; */
+}
+
+
+
+.SIDEBAR_Coloumn_Container img{
+    margin: 5%;
+    height: 50%;
+}
+
+.SIDEBAR_Coloumn_Container h5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    font-size: 105%;
+}
+
+.SIDEBAR_Dashboard{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+}
+
+.SIDEBAR_Edit{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+
+
+}
+
+.SIDEBAR_Update{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+
+
+}
+
+.SIDEBAR_Payroll{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+
+
+}

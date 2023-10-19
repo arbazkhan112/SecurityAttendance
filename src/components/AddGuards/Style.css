@@ -1,0 +1,199 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ADDGUARDS_MAIN_CONTAINER {
+    display: flex;
+
+}
+
+.ADDGUARDS_MAIN_CONTAINER2 {
+    display: flex;
+    flex-direction: column;
+    width: 82.2%;
+}
+
+.ADDGUARDS_TOGGLE_BTN {
+
+    display: flex;
+    justify-content: center;
+}
+
+.ADDGUARDS_TOGGLE_BUTTON {
+    font-family: 'Poly', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ramaraja', serif;
+    background-color: white;
+    color: red;
+}
+
+
+
+.ADDGUARDS_CENTER_CONTAINER {
+    display: flex;
+}
+
+.ADDGUARDS_ID_CNIC {
+    display: flex;
+}
+
+.ADDGUARDS_BOTH_NAMES {
+    display: flex;
+}
+
+.ADDGUARDS_NUMBER_CITY_RELIGIOUS {
+    display: flex;
+}
+
+.ADDGUARDS_WEAPON_SALARY_CHECKBOX {
+    display: flex;
+}
+
+/* CLASSES FOR ADDING LEFT MARGIN IN INPUT CONTAINERS */
+.ADDGUARDS_ID_NUMBER {
+    margin-left: 5%;
+}
+
+.ADDGUARDS_FIRSTNAME_NUMBER {
+    margin-left: 5%;
+}
+
+.ADDGUARDS_PHONE_NUMBER {
+    margin-left: 5%;
+}
+
+.ADDGUARDS_WEAPON_NUMBER {
+    margin-left: 5%;
+}
+
+.ADDGUARDS_CNIC_NUMBER{
+    margin-left: 10%;
+}
+
+.ADDGUARDS_LASTNAME_NUMBER{
+    margin-left: 10%;
+}
+
+.ADDGUARDS_CITY_NAME{
+    margin-left: 10%;
+}
+
+.ADDGUARDS_RELIGIOUS{
+    margin-left: 10%;
+}
+
+.ADDGUARDS_SALARY{
+    margin-left: 10%;
+}
+
+.ADDGUARDS_CHECKBOX{
+    background-color: cadetblue;
+    margin-left: 10%;
+}
+
+
+
+/* ---------------------- */
+
+
+.ADDGUARDS_INPUT_CONTAINER {
+    background-color: rgb(252, 185, 99);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 87%;
+}
+
+.ADDGUARDS_PROFILE_CONTAINER {
+    display: flex;
+    flex-basis: 13%;
+
+}
+
+
+
+.ADDGUARDS_INPUTBOX {
+}
+
+.ADDGUARDS_INPUT_CONTAINER h2 {
+    font-size: 1rem;
+}
+
+.ADDGUARDS_INPUT_CONTAINER input {
+    padding: 2% 0%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F2F2;
+    border: 2px solid #F3F2F2;
+    width: 100%;
+    margin: 3% 0%;
+    font-size: 1rem;
+    padding-left: 3%;
+    
+}
+
+.ADDGUARDS_PROFILE_CONTAINER img {
+    height: 50%;
+}
+
+
+
+
+
+
+
+.ADDGUARDS_BUTTON {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ADDGUARDS_SAVE_BTN {
+    background-color: #62a4f9;
+    padding: 8px 32px;
+    border-radius: 23px;
+    border: #62A4F9;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ADDGUARDS_toggle-button-group {
+    display: flex;
+    border: 1px solid black;
+    /* border-radius: 20%; */
+    margin: 5%;
+    padding-bottom: 1%;
+    padding-top: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10%;
+  }
+  
+  .toggle-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    color: black;
+    background-color: white;
+    padding-bottom: 0px;
+  }
+
+
+  
+  .toggle-button.selected {
+    border-bottom: 2px solid #62A4F9; /* Change the color for the selected state */
+  }
