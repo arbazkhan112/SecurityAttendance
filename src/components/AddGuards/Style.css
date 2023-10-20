@@ -67,29 +67,35 @@
     margin-left: 5%;
 }
 
-.ADDGUARDS_CNIC_NUMBER{
+.ADDGUARDS_CNIC_NUMBER {
     margin-left: 10%;
 }
 
-.ADDGUARDS_LASTNAME_NUMBER{
+.ADDGUARDS_LASTNAME_NUMBER {
     margin-left: 10%;
 }
 
-.ADDGUARDS_CITY_NAME{
+.ADDGUARDS_CITY_NAME {
     margin-left: 10%;
 }
 
-.ADDGUARDS_RELIGIOUS{
+.ADDGUARDS_RELIGIOUS {
     margin-left: 10%;
 }
 
-.ADDGUARDS_SALARY{
+.ADDGUARDS_SALARY {
     margin-left: 10%;
 }
 
-.ADDGUARDS_CHECKBOX{
-    background-color: cadetblue;
+.ADDGUARDS_CHECKBOX {
+    display: flex;
     margin-left: 10%;
+    margin-top: 3%;
+
+}
+
+.ADDGUARDS_RADIO_CONTAINER {
+    margin: 0% 3%;
 }
 
 
@@ -98,7 +104,6 @@
 
 
 .ADDGUARDS_INPUT_CONTAINER {
-    background-color: rgb(252, 185, 99);
     display: flex;
     flex-direction: column;
     flex-basis: 87%;
@@ -112,8 +117,7 @@
 
 
 
-.ADDGUARDS_INPUTBOX {
-}
+
 
 .ADDGUARDS_INPUT_CONTAINER h2 {
     font-size: 1rem;
@@ -124,22 +128,61 @@
     font-family: 'Poppins', sans-serif;
     background-color: #F3F2F2;
     border: 2px solid #F3F2F2;
-    width: 100%;
+    /* width: 100%; */
     margin: 3% 0%;
     font-size: 1rem;
     padding-left: 3%;
-    
+
 }
 
 .ADDGUARDS_PROFILE_CONTAINER img {
-    height: 50%;
+    height: 60%;
 }
 
 
 
 
 
+/* ---------------------------------- */
 
+.ADDGUARDS_WIDTH {
+    width: 40%;
+}
+
+.ADDGUARDS_WIDTH2 {
+    width: 102%;
+
+}
+
+.ADDGUARDS_WIDTH3 {
+    width: 40%;
+}
+
+.ADDGUARDS_WIDTH4 {
+    width: 82%;
+
+}
+
+.ADDGUARDS_WIDTH5 {
+    width: 40%;
+}
+
+.ADDGUARDS_WIDTH6 {
+    width: 82%;
+
+}
+
+.ADDGUARDS_RADIO_OPTIONS {
+    display: flex;
+}
+
+.ADDGUARDS_RADIO_OPTIONS2 {
+    display: flex;
+    margin: 0% 3%;
+}
+
+
+/* ------------------------------------------ */
 
 .ADDGUARDS_BUTTON {
     display: flex;
@@ -152,8 +195,10 @@
     border-radius: 23px;
     border: #62A4F9;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: white;
+    margin-right: 4%;
+
 }
 
 
@@ -175,14 +220,14 @@
     padding-top: 0%;
     padding-left: 1%;
     padding-right: 1%;
-    border-radius: 10%;
-  }
-  
-  .toggle-button {
+    border-radius: 5%;
+}
+
+.toggle-button {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     flex: 1;
-    padding: 10px 20px;
+    padding: 10px 60px;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -190,10 +235,11 @@
     color: black;
     background-color: white;
     padding-bottom: 0px;
-  }
+}
 
 
-  
-  .toggle-button.selected {
-    border-bottom: 2px solid #62A4F9; /* Change the color for the selected state */
-  }
+
+.toggle-button.selected {
+    border-bottom: 2px solid #62A4F9;
+    /* Change the color for the selected state */
+}
