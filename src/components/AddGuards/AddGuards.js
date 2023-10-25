@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Sidebar2 from '../Sidebar2/Sidebar2'
+// import Sidebar2 from '../Sidebar2/Sidebar2'
 import { useState } from 'react';
 
 
@@ -12,33 +12,32 @@ import './Style.css';
 
 export default function AddGuards() {
 
-    const [selectedOption, setSelectedOption] = useState('add');
+    // const [selectedOption, setSelectedOption] = useState('add');
 
-    const handleOptionChange = (option) => {
-        setSelectedOption(option);
-    };
+    // const handleOptionChange = (option) => {
+    //     setSelectedOption(option);
+    // };
 
 
 
     const [selectedOption2, setSelectedOption2] = useState(null);
 
-    const handleOptionChange2 = (option2) => {
+     const handleOptionChange2 = (option2) => {
         setSelectedOption2(option2);
 
-    }
+     }
 
 
 
 
     return (
         <>
-            <div className='ADDGUARDS_MAIN_CONTAINER'>
-                <Sidebar2 />
+            {/* <div className='ADDGUARDS_MAIN_CONTAINER'> */}
+                {/* <Sidebar2 /> */}
                 <div className="ADDGUARDS_MAIN_CONTAINER2">
 
                     {/* TOGGLE BUTTONS BELOW */}
-                    <div className="ADDGUARDS_TOGGLE_BTN">
-
+                    {/* <div className="ADDGUARDS_TOGGLE_BTN">
                         <div className="ADDGUARDS_toggle-button-group">
                             <button
                                 onClick={() => handleOptionChange('add')}
@@ -53,10 +52,10 @@ export default function AddGuards() {
                                 Remove
                             </button>
                         </div>
+                    </div> */}
 
 
 
-                    </div>
 
                     {/* CENTER CONTAINER FOR INPUT DATA AND PROFILE PICTURE */}
                     <div className="ADDGUARDS_CENTER_CONTAINER">
@@ -172,7 +171,7 @@ export default function AddGuards() {
                         <button className='ADDGUARDS_SAVE_BTN'>Save</button>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
 
         </>
     )

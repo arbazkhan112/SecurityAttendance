@@ -3,15 +3,11 @@
     margin: 0px;
 }
 
-.ADDGUARDS_MAIN_CONTAINER {
-    display: flex;
-
-}
 
 .ADDGUARDS_MAIN_CONTAINER2 {
     display: flex;
     flex-direction: column;
-    width: 82.2%;
+
 }
 
 .ADDGUARDS_TOGGLE_BTN {

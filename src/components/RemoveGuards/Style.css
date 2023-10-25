@@ -14,12 +14,12 @@
     width: 82.2%;
 }
 
-.REMOVEGUARDS_TOGGLE_BTN {
+/* .REMOVEGUARDS_TOGGLE_BTN {
 
     display: flex;
     justify-content: center;
 }
-
+ */
 
 
 
@@ -123,12 +123,12 @@
 
 
 
-
+/* 
 
 .REMOVEGUARDS_toggle-button-group {
     display: flex;
     border: 1px solid black;
-    /* border-radius: 20%; */
+     border-radius: 20%; 
     margin: 5%;
     padding-bottom: 1%;
     padding-top: 0%;
@@ -155,5 +155,5 @@
 
 .toggle-button.selected {
     border-bottom: 2px solid #62A4F9;
-    /* Change the color for the selected state */
-}
+    Change the color for the selected state 
+} */
