@@ -3,16 +3,16 @@
     margin: 0px;
 }
 
-.SUPERVISORPASSWORD_MAIN_CONTAINER {
+/* .SUPERVISORPASSWORD_MAIN_CONTAINER {
     display: flex;
-}
+    
+} */
 
 .SUPERVISORPASSWORD_MAIN_CONTAINER2 {
     display: flex;
     flex-direction: column;
-    width: 82.2%;
 
-    padding: 4%;
+     padding: 4%; 
 
 }
 
@@ -81,7 +81,7 @@
     margin: 3% 0%;
     font-size: 1rem;
     padding-left: 3%;
-    width: 180%;
+    width: 150%;
 
 }
 

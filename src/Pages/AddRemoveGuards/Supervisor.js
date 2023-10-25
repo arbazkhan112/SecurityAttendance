@@ -6,7 +6,7 @@ import "./Style.css"
 
 
 //  import SupervisorPassword from '../../components/SupervisorPassword/SupervisorPassword';
-   import AddGuards from '../../components/AddGuards/AddGuards';
+import AddGuards from '../../components/AddGuards/AddGuards';
 import RemoveGuards from '../../components/RemoveGuards/RemoveGuards';
 
 export default function Supervisor() {
@@ -18,20 +18,6 @@ export default function Supervisor() {
   const handleOptionChange = (option) => {
     setSelectedOption(option);
   };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -79,7 +65,7 @@ export default function Supervisor() {
           <div className="REMOVEGUARDS_TOGGLE_BTN ">
             <div className="REMOVEGUARDS_toggle-button-group">
               <button
-                onClick={() => handleOptionChange('add') }
+                onClick={() => handleOptionChange('add')}
                 className={`toggle-button ${selectedOption === 'add' ? 'selected' : ''}`}
               >
                 Add
@@ -97,7 +83,7 @@ export default function Supervisor() {
           <div className="SUPERVISOR_CENTER_RIGHT_DOWN_CONTAINER">
             {/* {show ? (<><RemoveGuards /> </>) : (<>{null}</>)} */}
             {/* <RemoveGuards /> */}
-            {selectedOption === 'add' ? <AddGuards/> : <RemoveGuards /> }
+            {selectedOption === 'add' ? <AddGuards /> : <RemoveGuards />}
 
           </div >
 

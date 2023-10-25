@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar2 from '../../components/Sidebar2/Sidebar2';
+// import Sidebar2 from '../../components/Sidebar2/Sidebar2';
 import './Style.css';
 
 
@@ -7,8 +7,8 @@ import './Style.css';
 export default function SupervisorPassword() {
   return (
     <>
-        <div className='SUPERVISORPASSWORD_MAIN_CONTAINER'>
-                <Sidebar2 />
+        {/* <div className='SUPERVISORPASSWORD_MAIN_CONTAINER'> */}
+                {/* <Sidebar2 /> */}
                 <div className="SUPERVISORPASSWORD_MAIN_CONTAINER2">
                     {/* <div className="SUPERVISORPASSWORD_LEFT_CONTAINER"></div> */}
                     {/* <div className="SUPERVISORPASSWORD_RIGHT_CONTAINER"> */}
@@ -30,7 +30,7 @@ export default function SupervisorPassword() {
                         <button className="SUPERVISORPASSWORD_CONFIRM_BUTTON">Confirm</button>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
     </>
   )
 }
