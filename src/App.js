@@ -4,6 +4,7 @@ import React from 'react';
 import BannerPage from './Pages/BannerPage/BannerPage';
 import Dashboardpage from './Pages/DashboardPage/Dashboardpage';
 import Login from './Pages/LoginPage/Login';
+import Supervisor from './Pages/SupervisorPasswordPage/Supervisor';
 
 // IMPORTING ROUTERS
 import {
@@ -11,8 +12,6 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Supervisor from './Pages/SupervisorPasswordPage/Supervisor';
-import SupervisorLogin from './Pages/SupervisorLogin/SupervisorLogin';
 
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
           <Route path="/login" element={<Login />}></Route>
           <Route path="/dashboard" element={<Dashboardpage />}></Route>
           <Route path="/supervisor" element={<Supervisor />}></Route>
-          <Route path="/SupervisorLogin" element={<SupervisorLogin />}></Route>
         </Routes>
       </BrowserRouter>
     </>
