@@ -38,7 +38,7 @@ export default function Supervisor() {
         <div className="SIDEBAR_Coloumn_Container">
           <div className="SIDEBAR_Dashboard">
             <img src="./images/dashboard.png" alt="Dashboard Image" />
-            <h5>Dashboard</h5>
+            <h5> <a href=""></a> Dashboard</h5>
           </div>
           <div className="SIDEBAR_Edit">
             <img src="./images/edit.png" alt="Dashboard Image" />

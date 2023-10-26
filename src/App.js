@@ -9,6 +9,7 @@ import Signup from './Pages/SignupPage/Signup';
 import Supervisor from './Pages/AddRemoveGuards/Supervisor';
 import SupervisorAccess from './Pages/SupervisorAccess/SupervisorAccess';
 import SA_Signup from './Pages/SA_Signup/SA_Signup';
+// import MenuOptions from './Pages/MenuOptions/MenuOptions';
 
 // IMPORTING ROUTERS
 import {
@@ -16,6 +17,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import SA_Dashboard from './Pages/SA_Dashboard/SA_SUMMARY';
 
 
 
@@ -32,6 +34,8 @@ function App() {
           {/* <Route path="/dashboard" element={<Dashboardpage />}></Route> */}
           <Route path="/supervisor" element={<Supervisor />}></Route>
           <Route path="/supervisoraccess" element={<SupervisorAccess/>}></Route>
+          <Route path="/SAdashboard" element={<SA_Dashboard/>}></Route>
+          {/* <Route path="/menuoptions" element={<MenuOptions/>}></Route> */}
         </Routes>
       </BrowserRouter>
     </>
