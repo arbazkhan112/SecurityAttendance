@@ -1,17 +1,17 @@
 import * as React from 'react';
-import Sidebar2 from '../Sidebar2/Sidebar2'
-import { useState } from 'react';
+// import Sidebar2 from '../Sidebar2/Sidebar2'
+// import { useState } from 'react';
 import "./Style.css"
 
 
 export default function RemoveGuards() {
 
 
-    const [selectedOption, setSelectedOption] = useState('add');
+    // const [selectedOption, setSelectedOption] = useState('add');
 
-    const handleOptionChange = (option) => {
-        setSelectedOption(option);
-    };
+    // const handleOptionChange = (option) => {
+    //     setSelectedOption(option);
+    // };
 
 
 
@@ -21,11 +21,11 @@ export default function RemoveGuards() {
     return (
         <>
             <div className='REMOVEGUARDS_MAIN_CONTAINER'>
-                <Sidebar2 />
+                {/* <Sidebar2 /> */}
                 <div className="REMOVEGUARDS_MAIN_CONTAINER2">
 
                     {/* TOGGLE BUTTONS BELOW */}
-                    <div className="REMOVEGUARDS_TOGGLE_BTN">
+                    {/* <div className="REMOVEGUARDS_TOGGLE_BTN">
 
                         <div className="REMOVEGUARDS_toggle-button-group">
                             <button
@@ -44,7 +44,7 @@ export default function RemoveGuards() {
 
 
 
-                    </div>
+                    </div> */}
 
 
 
@@ -53,27 +53,27 @@ export default function RemoveGuards() {
                     <form action="" className='REMOVEGUARDS_INPUT_FORM'>
 
                         {/* ID NUMBER SECTION */}
-                       
-                            <h2 className='REMOVEGUARDS_ID_NUMBER_TITLE'>ID Number</h2>
-                            <input className='REMOVEGUARDS_ID_NUMBER_INPUT ' type="text" />
-                        
+
+                        <h2 className='REMOVEGUARDS_ID_NUMBER_TITLE'>ID Number</h2>
+                        <input className='REMOVEGUARDS_ID_NUMBER_INPUT ' type="text" />
+
 
 
 
                         {/* FIRS TNAME NUMBER SECTION */}
-                       
-                            <h2 className='REMOVEGUARDS_NAME_TITLE'>Name</h2>
-                            <input className='REMOVEGUARDS_NAME_INPUT ' type="text" />
-                       
+
+                        <h2 className='REMOVEGUARDS_NAME_TITLE'>Name</h2>
+                        <input className='REMOVEGUARDS_NAME_INPUT ' type="text" />
+
 
 
 
 
                         {/* LAST NAME NUMBER SECTION */}
-                        
-                            <h2 className='REMOVEGUARDS_WEAPON_NUMBER_TITLE'>Weapon Number</h2>
-                            <input className='REMOVEGUARDS_WEAPON_NUMBER_INPUT ' type="text" />
-                       
+
+                        <h2 className='REMOVEGUARDS_WEAPON_NUMBER_TITLE'>Weapon Number</h2>
+                        <input className='REMOVEGUARDS_WEAPON_NUMBER_INPUT ' type="text" />
+
 
                     </form>
 

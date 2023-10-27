@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ---------------------------------------------------- */
+
+.SA_SUMMARY_CENTER_CONTAINER{
+    display: flex;
+}
+
+/* ---------------------------------------------------- */
+
+.SA_SUMMARY_RIGHT_CONTAINER{
+   display: flex;
+   flex-direction: column;
+   width: 82.2%;
+
+}
+
+
+/* ---------------------------------------------------- */
+
+
+
+.SIDEBAR_Coloumn_Container{
+    display: flex;
+    flex-direction: column;
+    width: 17.8%;
+    border-right: 1px solid black;
+    height: 100vh;
+    padding-top: 3%;
+    /* background-color: blue; */
+}
+
+
+.SIDEBAR_Coloumn_Container img{
+    margin: 5%;
+    height: 50%;
+}
+
+.SIDEBAR_Coloumn_Container h5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    font-size: 105%;
+}
+
+.SIDEBAR_Dashboard{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+}
+
+.SIDEBAR_Dashboard:hover{
+    cursor: pointer;
+}
+.SIDEBAR_Edit:hover{
+    cursor: pointer;
+}
+.SIDEBAR_Update:hover{
+    cursor: pointer;
+}
+.SIDEBAR_Payroll:hover{
+    cursor: pointer;
+}
+.SIDEBAR_Summary:hover{
+    cursor: pointer;
+}
+
+.SIDEBAR_Edit{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+
+
+}
+
+.SIDEBAR_Update{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+
+
+}
+
+.SIDEBAR_Payroll{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+
+
+}
+
+.SIDEBAR_Summary{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 4% ;
+    align-items: center;
+
+
+
+}
+
+
+
+/* ---------------------------------------------------- */
+
+
+.SA_SUMMARY_TOP_BOXES_CONTAINER{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: space-around;
+}
+
+.SA_SUMMARY_BOX{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 1%;
+    width: 19%;
+    height: 100%;
+} 
+
+
+.SA_SUMMARY_P1{
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+.SA_SUMMARY_H1{
+    color: #62A4F9;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.SA_SUMMARY_P2{
+    text-align: center;
+    color: #939292;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+

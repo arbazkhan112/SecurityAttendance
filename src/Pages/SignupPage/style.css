@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.SIGNUP_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.SIGNUP_left_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #62A4F9;
+    height: 100vh;
+    width: 70vh;
+
+
+}
+
+#SIGNUP_logo {
+    width: 14%;
+    margin: 6%;
+}
+
+.SIGNUP_left_center_container {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+
+}
+
+#SIGNUP_left_h1 {
+
+    color: white;
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 2rem;
+    letter-spacing: 7px;
+    margin: 1px auto;
+    text-align: center;
+}
+
+#SIGNUP_left_h2 {
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 7px;
+    margin: 12% auto;
+    text-align: center;
+
+}
+
+#SIGNUP_admin_button {
+    padding: 2% 10%;
+    border-radius: 29px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 5%;
+    background-color: #62a4f9;
+    border: 1px solid white;
+}
+
+#SIGNUP_super_button {
+    padding: 3% 10%;
+    border-radius: 29px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 5%;
+    background-color: #62a4f9;
+    border: 1px solid white;
+}
+
+.SIGNUP_right_container {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    padding: 3%;
+
+}
+
+/* .SIGNUP_RIGHT_CONTAINER_IMG{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.SIGNUP_IMG {
+
+    /* height: 45%; */
+    width: 20%;
+    align-self: center;
+    margin-bottom: 3%;
+}
+
+#SIGNUP_right_h1 {
+    color: black;
+    font-family: 'Poly', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 7px;
+    margin: 1px auto;
+    margin-bottom: 4%;
+    text-align: center;
+
+}
+
+
+
+
+.SIGNUP_INPUT_CONTAINER h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+}
+
+.SIGNUP_INPUT_CONTAINER input {
+    padding: 2% 0%;
+    /* padding-right: 28%; */
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F2F2;
+    border-radius: 10%;
+    border: 2px solid #F3F2F2;
+    margin: 3% 0%;
+    font-size: 1rem;
+    padding-left: 3%;
+    width: 330px;
+}
+
+.SIGNUP_INPUT_CONTAINER_1_ROW {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.SIGNUP_INPUT_CONTAINER_2_ROW {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.SIGNUP_INPUT_CONTAINER_3_ROW {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+/* BUTTON CSS */
+
+#SIGNUP_SIGNUP_button {
+    background-color: #62a4f9;
+    padding: 8px 32px;
+    border-radius: 23px;
+    border: #62A4F9;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: white;
+    margin: 1px auto;
+    text-align: center;
+    display: block;
+    margin-top: 4%;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1300px) {
+
+    .SIGNUP_INPUT_CONTAINER input {
+       
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #SIGNUP_admin_button {
+        font-size: 0.8rem;
+
+    }
+
+    #SIGNUP_super_button {
+        font-size: 1rem;
+
+    }
+
+    .SIGNUP_INPUT_CONTAINER_1_ROW {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .SIGNUP_INPUT_CONTAINER_2_ROW {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .SIGNUP_INPUT_CONTAINER_3_ROW {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+   
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+
+    .SIGNUP_left_container {
+        display: none;
+    }
+
+    .SIGNUP_right_container {
+        display: flex;
+        flex-direction: column;
+        margin: 0% auto;
+        width: 70%;
+    }
+
+    #SIGNUP_right_h1 {
+        color: black;
+        font-family: 'Poly', serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        letter-spacing: 7px;
+        /* margin: 1px auto; */
+        margin-bottom: 15%;
+        text-align: center;
+    }
+
+    .SIGNUP_button_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #SIGNUP_admin_button {
+        font-size: 0.7rem;
+        margin-bottom: 12%;
+
+    }
+
+    #SIGNUP_super_button {
+        font-size: 0.8rem;
+        padding: 2% 10%;
+        margin-bottom: 12%;
+
+
+    }
+
+    #SIGNUP_SIGNUP_button {
+        margin: 1% auto;
+        margin-top: 12%;
+        text-align: center;
+        margin-bottom: 12%;
+
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+    .SIGNUP_right_container {
+        display: flex;
+        flex-direction: column;
+        margin: 3% auto;
+        margin-top: 12%;
+        width: 70%;
+    }
+
+    #SIGNUP_right_h1 {
+
+        font-size: 1.5rem;
+        margin-bottom: 15%;
+
+    }
+
+    #SIGNUP_admin_button {
+        font-size: 0.6rem;
+        padding: 2% 3%;
+        margin-bottom: 12%;
+
+
+    }
+
+    #SIGNUP_super_button {
+        font-size: 0.6rem;
+        padding: 2% 3%;
+        margin-bottom: 12%;
+
+
+    }
+
+    #SIGNUP_SIGNUP_button {
+        margin: 1% auto;
+        margin-top: 12%;
+        text-align: center;
+        padding: 2% 5%;
+    }
+
+    .SIGNUP_INPUT_CONTAINER input {
+       
+        width: 200px;
+    }
+}
