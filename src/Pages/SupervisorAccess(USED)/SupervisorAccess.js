@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar2 from '../../components/Navbar2/Navbar2'
-import SupervisorPassword from '../../components/SupervisorPassword/SupervisorPassword'
+import Navbar2 from '../../components/Navbar2(USED)/Navbar2'
+import SupervisorPassword from '../../components/SupervisorPassword(USED)/SupervisorPassword'
 
 export default function SupervisorAccess() {
     return (
