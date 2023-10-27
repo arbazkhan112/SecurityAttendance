@@ -31,7 +31,6 @@ function App() {
           <Route path="/SAlogin" element={<SA_Login/>}></Route>
           <Route path="/signup" element={<Signup/>}></Route>
           <Route path="/SAsignup" element={<SA_Signup/>}></Route>
-          {/* <Route path="/dashboard" element={<Dashboardpage />}></Route> */}
           <Route path="/supervisor" element={<Supervisor />}></Route>
           <Route path="/supervisoraccess" element={<SupervisorAccess/>}></Route>
           <Route path="/SAdashboard" element={<SA_Dashboard/>}></Route>
