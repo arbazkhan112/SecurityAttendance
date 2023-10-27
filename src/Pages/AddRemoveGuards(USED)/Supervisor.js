@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import Navbar2 from '../../components/Navbar2/Navbar2'
+import Navbar2 from '../../components/Navbar2(USED)/Navbar2'
 import "./Style.css"
 // import Sidebar2 from '../../components/Sidebar2/Sidebar2'
 
